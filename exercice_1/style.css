@@ -141,3 +141,29 @@ footer img {
     align-items: center;
   }
 }
+
+.rond_1 {
+  height: 50px;
+  width: 50px;
+  background-color: darkgray;
+  border-radius: 50px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  
+  opacity: 0.5;
+  z-index: 2;
+  
+}
+
+.rond_2 {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 50px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  
+  z-index: 1;
+  
+}
